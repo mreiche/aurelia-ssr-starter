@@ -38,6 +38,5 @@ app.listen(port, () => {
 });
 
 process.on('unhandledRejection', error => {
-    console.log('unhandledRejection', error.message);
-    console.log(error.stack);
+    console.log('unhandledRejection', error);
 });
